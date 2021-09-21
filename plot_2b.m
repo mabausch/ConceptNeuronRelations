@@ -41,7 +41,7 @@ function [] = plot_2b(fig2b)
     imagesc(time,1:N,p1_CN_tworeact_qcomp(iii,:),[min_y max_y])
 
     g = colorbar('Units','centimeters','Position',[16.770 8.6265 0.2 2.853]);
-    ylabel(g,'z-value','fontsize',10)
+    ylabel(g,'{\itz}-value','fontsize',10)
    
     hold on, draw_picture_events()
     set(gca,'XTick',[],'YTick',[])

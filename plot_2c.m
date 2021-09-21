@@ -28,7 +28,7 @@ function [] = plot_2c(fig2c, fig2c_stats)
     
     % move labels
     YYY = ylabel('mean {\itz}-value','fontsize',Fs);
-    YYY.Position(1) = YYY.Position(1)-.3;
+    YYY.Position(1) = YYY.Position(1);
     XXX = xlabel('mean {\itz}-value','fontsize',Fs);
     XXX.Units = 'centimeters';
     XXX.Position(1) = XXX.Position(1)+6.0540;
